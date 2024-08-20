@@ -532,10 +532,6 @@ function level3() {
   }
 
   rect(wall2X, wall2Y, wall2L, wall2A);
-  // wall2X+=velzX
-  // if(wall2X<=0||wall2X>=width){
-  //   velzX*= -1
-  //  }
 
   rect(wall3X, wall3Y, wall3L, wall3A,sm);
   wall3Y += velz3Y;
