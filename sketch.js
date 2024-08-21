@@ -135,7 +135,7 @@ function preload() {
     "https://raw.githubusercontent.com/elBLK/Arquivos/main/sumario.png"
   );
   gif = loadImage(
-    "https://raw.githubusercontent.com/elBLK/Arquivos/main/giphy.gif"
+    "https://raw.githubusercontent.com/elBLK/Arquivos/main/info.png"
   );
 }
 
@@ -793,22 +793,22 @@ function happyend() {
 function info() {
   background(gif);
   image(voltar, 20, 20, 50, 50);
-  textSize(25);
-  fill("white");
-  text("Funções centrais do código", 320, 50);
-  textSize(18);
-  text(
-    "Preload(); - Carrega recursos préviamente" +
-      "\n" +
-      "(sons,imagens e outros arquivos.)",
-    320,
-    150
-  );
-  text("setup(); - Configura o ambiente inicial.", 320, 230);
-  text("Draw(); - Atualiza a tela continuamente e cria animações.", 320, 290);
-  text(
-    "mouseClicked(); - Identifica quando o botão do mouse foi clicado.",
-    300,
-    350
-  );
+  //textSize(25);
+  //fill("white");
+  //text("Funções centrais do código", 320, 50);
+ // textSize(18);
+//  text(
+ //   "Preload(); - Carrega recursos préviamente" +
+  //    "\n" +
+  //    "(sons,imagens e outros arquivos.)",
+  //  320,
+  //  150
+ // );
+ // text("setup(); - Configura o ambiente inicial.", 320, 230);
+ // text("Draw(); - Atualiza a tela continuamente e cria animações.", 320, 290);
+ // text(
+  //  "mouseClicked(); - Identifica quando o botão do mouse foi clicado.",
+  //  300,
+  //  350
+//  );
 }
