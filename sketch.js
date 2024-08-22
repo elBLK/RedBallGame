@@ -83,7 +83,7 @@ var estrela;
 var sm;
 var sumario;
 var gif;
-var dicas=["A concentração é essencial para uma boa precisão","Se apressar não vai adiantar!","Manter a calma é a chave do sucesso!"," Mais velocidade = Menos precisão", "Segure bem o mouse!"];
+var dicas=[["A concentração é essencial para uma boa precisão"," Mais velocidade = Menos precisão", "Respire fundo!","Pratique a coordenação!", "Respire e relaxe","A coordenação motora é a capacidade"+"\n"+ " de mover os músculos e "+"\n"+ "fazer movimentos precisos de acordo com"+"\n"+ " os comandos do cérebro","Na educação infantil, a coordenação"+"\n"+ " motora é trabalhada, estimulada e"+"\n"+ " desenvolvida de zero aos seis anos"+"\n"+ " de idade da criança.","Coordenação motora ampla: abrange atividades que"+"\n"+ " demandam movimentos abrangentes e expressivos,"+"\n"+ " como praticar esportes ou participar"+"\n"+ " de brincadeiras que envolvem "+"\n"+ "movimentos amplos.","O corpo humano está apto em realizar"+"\n"+ " movimentos articulados, que resultam na"+"\n"+ " interação entre os sistemas, como o muscular, "+"\n"+ "esquelético, nervoso e sensorial.","A coordenação motora infantil tem divisões,"+"\n"+ " como a coordenação motora fina e"+"\n"+ " a coordenação motora ampla: ","Na coordenação motora fina, verificamos o"+"\n"+ " uso de músculos pequenos, como os das mãos e dos pés."+"\n"+ " Ao desenhar, pintar ou manusear pequenos objetos, a criança "+"\n"+ "realiza movimentos mais precisos, "+"\n"+ "delicados, e desenvolve habilidades que a"+"\n"+ " acompanharão por toda a vida."];
 function preload() {
   bg0 = loadImage(
     "https://raw.githubusercontent.com/elBLK/Arquivos/main/menu2.png"
